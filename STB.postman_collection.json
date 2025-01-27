@@ -68,7 +68,7 @@
 							"apikey": [
 								{
 									"key": "value",
-									"value": "AIzaSyCzgttisCXST5vCtWhPlPA9gU-ZTGk1HgE",
+									"value": "{{PLACES_API_KEY}}",
 									"type": "string"
 								},
 								{
@@ -351,13 +351,16 @@
 							}
 						}
 					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
 						"auth": {
 							"type": "apikey",
 							"apikey": [
 								{
 									"key": "value",
-									"value": "AIzaSyCzgttisCXST5vCtWhPlPA9gU-ZTGk1HgE",
+									"value": "{{PLACES_API_KEY}}",
 									"type": "string"
 								},
 								{
@@ -375,8 +378,17 @@
 								"type": "text"
 							}
 						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"maxHeightPx\": 400,\n    \"maxWidthPx\": 400,\n    \"key\": {{PLACES_API_KEY}}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
-							"raw": "https://places.googleapis.com/v1/places/ChIJSWafK5kQ2jERaQ1kiqBGY3c/photos/AWYs27yo1FFqrbulbdSzCPsOBILixaMLENtrk5c6xv0JVmB8xYTa728pQczIzUtnMbsCG0bQDLZaGchEsJMWPNVxy0a1SmXrp-dJOq7GIlnIsNspHYjocCW4iRkIllT02JCDAVXVSqFYyPZSGj1TruH_BiEXdOVshnLfbX6W/media?key=AIzaSyCzgttisCXST5vCtWhPlPA9gU-ZTGk1HgE",
+							"raw": "https://places.googleapis.com/v1/{photo_name}/media?maxHeightPx=400&maxWidthPx=400&key={{PLACES_API_KEY}}",
 							"protocol": "https",
 							"host": [
 								"places",
@@ -385,54 +397,22 @@
 							],
 							"path": [
 								"v1",
-								"places",
-								"ChIJSWafK5kQ2jERaQ1kiqBGY3c",
-								"photos",
-								"AWYs27yo1FFqrbulbdSzCPsOBILixaMLENtrk5c6xv0JVmB8xYTa728pQczIzUtnMbsCG0bQDLZaGchEsJMWPNVxy0a1SmXrp-dJOq7GIlnIsNspHYjocCW4iRkIllT02JCDAVXVSqFYyPZSGj1TruH_BiEXdOVshnLfbX6W",
+								"{photo_name}",
 								"media"
 							],
 							"query": [
 								{
+									"key": "maxHeightPx",
+									"value": "400"
+								},
+								{
+									"key": "maxWidthPx",
+									"value": "400"
+								},
+								{
 									"key": "key",
-									"value": "AIzaSyCzgttisCXST5vCtWhPlPA9gU-ZTGk1HgE"
+									"value": "{{PLACES_API_KEY}}"
 								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "docs",
-					"request": {
-						"auth": {
-							"type": "noauth"
-						},
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"user_query\": \"chinese buffet good for kids\",\n    \"page_size\": 2\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "http://0.0.0.0:8000/api/v1/locations/search",
-							"protocol": "http",
-							"host": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
-							"port": "8000",
-							"path": [
-								"api",
-								"v1",
-								"locations",
-								"search"
 							]
 						}
 					},
