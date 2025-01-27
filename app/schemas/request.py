@@ -16,6 +16,8 @@ class UserRequest(BaseModel):
             int,
             Field(
                 description="Number of results to return",
+                gt=0,
+                lt=20,
             ),
         ]
     ] = 5

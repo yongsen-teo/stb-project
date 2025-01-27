@@ -3110,3 +3110,568 @@ nextPageToken
 2025-01-28 05:25:54,268 - app.api.v1.locations - DEBUG - Sorted 1 places
 2025-01-28 05:25:54,268 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'Boon Lay Place Market', 'address': '221A Boon Lay Pl, Singapore 641221', 'openingHours': {'Mon': 'Error: Open 24 hours', 'Tue': 'Error: Open 24 hours', 'Wed': 'Error: Open 24 hours', 'Thu': 'Error: Open 24 hours', 'Fri': 'Error: Open 24 hours', 'Sat': 'Error: Open 24 hours', 'Sun': 'Error: Open 24 hours'}, 'contactNumber': '+65-6225-5632', 'description': '', 'citation': []}, 'extra_data': {'types': ['point_of_interest', 'restaurant', 'food', 'establishment'], 'priceRange': 'SGD $1-10', 'reviews': [], 'photos': [{'name': 'places/ChIJ3YoS3ukP2jERkcHsff2PWBo/photos/AVzFdbldY_RPKjymqnbav5dp90N10ij5D29o3yZcPcw_y4o3mdSHCeXUnC550ELw_X68_B5vm9rfDklE9bwHMIWWGjULOIILHOhSvjhCJht761NzZTX5Vy4RxvxU3GE9eJpKQSbMqJasJIBdqANBfmo6p8WCk5D0ZEK_98lz', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOtYlWy6lKjM2iGOGyfunpht9ZotwkotfgbEkbV!2e10!4m2!3m1!1s0x31da0fe9de128add:0x1a588ffd7decc191'}], 'editorialSummary': '', 'websiteUri': 'https://www.nea.gov.sg/our-services/hawker-management/overview'}}
 2025-01-28 05:26:05,835 - app.api.v1.locations - INFO - Successfully processed 1 places
+2025-01-28 05:57:59,142 - app.api.v1.locations - DEBUG - Received user request: {'user_query': 'best pizza in singapore', 'page_size': 0, 'extra_fields': [], 'nextPageToken': None}
+2025-01-28 05:57:59,459 - app.api.v1.locations - INFO - Places fetched: [{'id': 'ChIJq9GMiesZ2jER4yuwp540AV4', 'types': ['italian_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 6015 0122', 'formattedAddress': '26 Beach Rd, B1-22 South Beach Avenue, Singapore 189768', 'rating': 4.7, 'websiteUri': 'https://www.docsingapore.com/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Tuesday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Wednesday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Thursday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Friday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Saturday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Sunday: 11:00\u202fAM\u2009–\u200910:00\u202fPM']}, 'priceLevel': 'PRICE_LEVEL_MODERATE', 'userRatingCount': 3571, 'displayName': {'text': 'd.o.c', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Tuesday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Wednesday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Thursday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Friday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Saturday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Sunday: 11:00\u202fAM\u2009–\u200910:00\u202fPM']}, 'photos': [{'name': 'places/ChIJq9GMiesZ2jER4yuwp540AV4/photos/AVzFdbmdXZ6jFiY25J-1EdPZTq3D5fvZUS_ZvcoYOpjyvTc-43P2SlzHgnwBxb7WxhmWBsJ5iUnHGOI2A1olz_eejlfpKWl7YZSMzGXQN_qjwy98JZFP4hdGpem2nz04WzADnZ05XGncZHRemZQd-fzESP4R9XBkJJrbJW9R', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPlnebbcNG6Agvl8Upjc0-BlL8CBin_lU2SHYBz!2e10!4m2!3m1!1s0x31da19eb898cd1ab:0x5e01349ea7b02be3'}], 'reviews': []}, {'id': 'ChIJp-p9TQAZ2jERsKCEh6lgKcQ', 'types': ['italian_restaurant', 'pizza_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 9823 5724', 'formattedAddress': '8 Club St, Unit #01-08, Singapore 069472', 'rating': 4.5, 'websiteUri': 'https://www.damichele.sg/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u20093:00\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Tuesday: 12:00\u2009–\u20093:00\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Wednesday: 12:00\u2009–\u20093:00\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Thursday: 12:00\u2009–\u20093:00\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Friday: 12:00\u2009–\u20093:00\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Saturday: 12:00\u2009–\u20093:00\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Sunday: 12:00\u2009–\u20094:00\u202fPM']}, 'userRatingCount': 1085, 'displayName': {'text': "L'antica Pizzeria Da Michele, Singapore", 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u20093:00\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Tuesday: 12:00\u2009–\u20093:00\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Wednesday: 12:00\u2009–\u20093:00\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Thursday: 12:00\u2009–\u20093:00\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Friday: 12:00\u2009–\u20093:00\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Saturday: 12:00\u2009–\u20093:00\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Sunday: 12:00\u2009–\u20094:00\u202fPM']}, 'photos': [{'name': 'places/ChIJp-p9TQAZ2jERsKCEh6lgKcQ/photos/AVzFdbn4iBzd0LQ7HKNXeCoBoRwGXT1SIcXMSD8wS6uRnvyTqF9nfvIu0VzFfd6QxfSZu1W3Yb48uz_deRzNzkGp43oX87vBd3-r5gUn6QoQ3-B3iOKIDKQbzMdZK7kkMGnX3I4gJ-mUW4RgYuf07djCzSxbeb_ZkBo51SvD', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipO2ASVnNuYXfIzb7y4r9dZvaeTFr1e4dQxhv0G_!2e10!4m2!3m1!1s0x31da19004d7deaa7:0xc42960a98784a0b0'}], 'reviews': []}, {'id': 'ChIJUw9ZUoUQ2jER2vah4NE87Io', 'types': ['italian_restaurant', 'pizza_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 9738 0891', 'formattedAddress': '7 Binjai Park, Singapore 589821', 'rating': 4.5, 'websiteUri': 'http://www.linorestaurant.com/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u20092:15\u202fPM, 5:30\u2009–\u20099:30\u202fPM', 'Tuesday: 12:00\u2009–\u20092:15\u202fPM, 5:30\u2009–\u20099:30\u202fPM', 'Wednesday: 12:00\u2009–\u20092:15\u202fPM, 5:30\u2009–\u20099:30\u202fPM', 'Thursday: 12:00\u2009–\u20092:15\u202fPM, 5:30\u2009–\u20099:30\u202fPM', 'Friday: 12:00\u2009–\u20092:15\u202fPM, 5:30\u2009–\u20099:30\u202fPM', 'Saturday: 12:00\u2009–\u20092:15\u202fPM, 5:30\u2009–\u20099:30\u202fPM', 'Sunday: 12:00\u2009–\u20092:15\u202fPM, 5:30\u2009–\u20099:30\u202fPM']}, 'priceLevel': 'PRICE_LEVEL_MODERATE', 'userRatingCount': 1362, 'displayName': {'text': 'LINO @ Binjai Park', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u20092:15\u202fPM, 5:30\u2009–\u20099:30\u202fPM', 'Tuesday: Closed', 'Wednesday: 12:00\u2009–\u20092:15\u202fPM, 5:30\u2009–\u20099:30\u202fPM', 'Thursday: 12:00\u2009–\u20092:15\u202fPM, 5:30\u2009–\u20099:30\u202fPM', 'Friday: 12:00\u2009–\u20092:15\u202fPM, 5:30\u2009–\u20099:30\u202fPM', 'Saturday: 12:00\u2009–\u20092:15\u202fPM, 5:30\u2009–\u20099:30\u202fPM', 'Sunday: 12:00\u2009–\u20092:15\u202fPM, 5:30\u2009–\u20099:30\u202fPM']}, 'photos': [{'name': 'places/ChIJUw9ZUoUQ2jER2vah4NE87Io/photos/AVzFdbkN5_XfokEEgLm4KG6z1ifcyVyBjXj6ICtF7OZFChQb6ZwEx7GDiDU5Xr0-N7HEpR6A2a34JWhbHN3wGRk45M9r_OWutbVmoFxq7tAVzAGL3hoglEDh9_5-dngkGMAdr33c7lC0Y7vej10-JgkrLIU5XzIU75VaF0wC', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMuUMtpOqUmyT14Y0JU_6ynAOYfrR5ywGhJ7rYl!2e10!4m2!3m1!1s0x31da108552590f53:0x8aec3cd1e0a1f6da'}], 'reviews': []}, {'id': 'ChIJ3c0dWFA92jER4S5AblPShQ4', 'types': ['italian_restaurant', 'pizza_restaurant', 'food_store', 'store', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 6974 6030', 'formattedAddress': '1 Changi Business Park Crescent, #01-19, Plaza 8, Podium, C, Singapore 486025', 'rating': 4.8, 'websiteUri': 'https://www.danielespizza.com/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 4:30\u2009–\u200910:00\u202fPM', 'Tuesday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 4:30\u2009–\u200910:00\u202fPM', 'Wednesday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 4:30\u2009–\u200910:00\u202fPM', 'Thursday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 4:30\u2009–\u200910:00\u202fPM', 'Friday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 4:30\u2009–\u200910:00\u202fPM', 'Saturday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 4:30\u2009–\u200910:00\u202fPM', 'Sunday: Closed']}, 'userRatingCount': 508, 'displayName': {'text': "Daniele's Pizza", 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 4:30\u2009–\u200910:00\u202fPM', 'Tuesday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 4:30\u2009–\u200910:00\u202fPM', 'Wednesday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 4:30\u2009–\u200910:00\u202fPM', 'Thursday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 4:30\u2009–\u200910:00\u202fPM', 'Friday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 4:30\u2009–\u200910:00\u202fPM', 'Saturday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 4:30\u2009–\u200910:00\u202fPM', 'Sunday: Closed']}, 'photos': [{'name': 'places/ChIJ3c0dWFA92jER4S5AblPShQ4/photos/AVzFdbnlQl5bjBphH_dE-slJ7LlYEcgwWhp6jpp0AX5oldLelCobG_kjsho85Hi85L-59heqYnkPHc3b_GrKE2ralfEaXHp7p0Undxr4xTORuZFEQvV22UOj4vKNZ74Mhx59xGXRcL-oKcsSNuBZxdgRrDRk3AhuCygztP-Q', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipP9WM87n-lVCwGwpgtczvkH6Z3hl-ckgzvlWJcM!2e10!4m2!3m1!1s0x31da3d50581dcddd:0xe85d2536e402ee1'}], 'priceRange': {'startPrice': {'currencyCode': 'SGD', 'units': '20'}, 'endPrice': {'currencyCode': 'SGD', 'units': '30'}}, 'reviews': []}, {'id': 'ChIJNe4VBMI92jER2ZRUIE8NmHA', 'types': ['pizza_restaurant', 'meal_delivery', 'food_delivery', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 3129 4321', 'formattedAddress': '125 Desker Rd, Singapore 209642', 'rating': 4.6, 'websiteUri': 'http://goldenroy.com/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: Closed', 'Tuesday: 12:00\u2009–\u20099:00\u202fPM', 'Wednesday: 12:00\u2009–\u20099:00\u202fPM', 'Thursday: 12:00\u2009–\u20099:00\u202fPM', 'Friday: 12:00\u2009–\u20099:00\u202fPM', 'Saturday: 12:00\u2009–\u20099:00\u202fPM', 'Sunday: 12:00\u2009–\u20099:00\u202fPM']}, 'userRatingCount': 909, 'displayName': {'text': 'Goldenroy Sourdough Pizza', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: Closed', 'Tuesday: Closed', 'Wednesday: Closed', 'Thursday: Closed', 'Friday: 12:00\u2009–\u20099:00\u202fPM', 'Saturday: 12:00\u2009–\u20099:00\u202fPM', 'Sunday: 12:00\u2009–\u20099:00\u202fPM']}, 'photos': [{'name': 'places/ChIJNe4VBMI92jER2ZRUIE8NmHA/photos/AVzFdbnIgvJXT2jDAdo_MCLmO4HeuG5g12MBu-9AAJCa7srrshfmP5lqk-1f3Fpkc8ukV3TvFtdywl1mz9kpH8wy0XxrTptxrJhTymcw7BUgKVklGo0Z3EMHGgkkzIsyNCfeWVrfeG4q0JJ-gvnlZxuUtCE8asMlrTofi4pv', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPNzJF7pklDuWBjQNJ96mM86Ij-4AMFF-bgSDSE!2e10!4m2!3m1!1s0x31da3dc20415ee35:0x70980d4f205494d9'}], 'priceRange': {'startPrice': {'currencyCode': 'SGD', 'units': '20'}, 'endPrice': {'currencyCode': 'SGD', 'units': '30'}}, 'reviews': []}, {'id': 'ChIJLXhQg6UZ2jER_QGp15ggBTY', 'types': ['italian_restaurant', 'pizza_restaurant', 'wine_bar', 'bar', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 6831 6271', 'formattedAddress': '333 Orchard Rd, Level 5, Singapore 238867', 'rating': 4.6, 'websiteUri': 'https://osteriamozza.com.sg/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u20092:30\u202fPM, 3:00\u2009–\u200910:00\u202fPM', 'Tuesday: 12:00\u2009–\u20092:30\u202fPM, 3:00\u2009–\u200910:00\u202fPM', 'Wednesday: 12:00\u2009–\u20092:30\u202fPM, 3:00\u2009–\u200910:00\u202fPM', 'Thursday: 12:00\u2009–\u20092:30\u202fPM, 3:00\u2009–\u200910:00\u202fPM', 'Friday: 12:00\u2009–\u20092:30\u202fPM, 3:00\u2009–\u200910:00\u202fPM', 'Saturday: 12:00\u2009–\u20092:30\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Sunday: 12:00\u2009–\u20092:30\u202fPM, 5:00\u2009–\u200910:00\u202fPM']}, 'userRatingCount': 1329, 'displayName': {'text': 'Osteria Mozza', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u20092:30\u202fPM, 3:00\u2009–\u200910:00\u202fPM', 'Tuesday: 12:00\u2009–\u20092:30\u202fPM, 3:00\u2009–\u200910:00\u202fPM', 'Wednesday: 12:00\u2009–\u20092:30\u202fPM, 3:00\u2009–\u200910:00\u202fPM', 'Thursday: 12:00\u2009–\u20092:30\u202fPM, 3:00\u2009–\u200910:00\u202fPM', 'Friday: 12:00\u2009–\u20092:30\u202fPM, 3:00\u2009–\u200910:00\u202fPM', 'Saturday: 12:00\u2009–\u20092:30\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Sunday: 12:00\u2009–\u20092:30\u202fPM, 5:00\u2009–\u200910:00\u202fPM']}, 'photos': [{'name': 'places/ChIJLXhQg6UZ2jER_QGp15ggBTY/photos/AVzFdbmMReCB0BCS4XQrBvf-FHIsn7he2uvq7uJdTOL6_qObY8R1DUINO_v7CA_jv9Pq5_lCTVx-oZ8Yu4Y4RqpeYjD9ZwJWOtn7tXIpe0PyzZryckDbbniX594Omr_3Cyb0nPy4ZvWh-9OTa94moN6_0CD7SQWVvcii3tY', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNqdnm-eavHQthNCN9iLdfFYAYykdKzOd-94GE!2e10!4m2!3m1!1s0x31da19a58350782d:0x36052098d7a901fd'}], 'priceRange': {'startPrice': {'currencyCode': 'SGD', 'units': '100'}}, 'reviews': []}, {'id': 'ChIJdQviZLEZ2jERrfhC7JSeeOQ', 'types': ['pizza_restaurant', 'meal_delivery', 'food_delivery', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 6291 0200', 'formattedAddress': '302 Beach Rd, #01-03 Concourse Skyline, Singapore 199600', 'rating': 4.6, 'websiteUri': 'http://www.pizzaface.sg/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: Closed', 'Tuesday: 11:00\u202fAM\u2009–\u20093:00\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Wednesday: 11:00\u202fAM\u2009–\u20093:00\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Thursday: 11:00\u202fAM\u2009–\u20093:00\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Friday: 11:00\u202fAM\u2009–\u20093:00\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Saturday: 11:00\u202fAM\u2009–\u20093:00\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Sunday: 11:00\u202fAM\u2009–\u20093:00\u202fPM, 5:00\u2009–\u200910:00\u202fPM']}, 'userRatingCount': 579, 'displayName': {'text': 'PizzaFace (Main)', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: Closed', 'Tuesday: 11:00\u202fAM\u2009–\u20092:30\u202fPM', 'Wednesday: 11:00\u202fAM\u2009–\u20093:00\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Thursday: 11:00\u202fAM\u2009–\u20093:00\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Friday: 11:00\u202fAM\u2009–\u20093:00\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Saturday: 11:00\u202fAM\u2009–\u20093:00\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Sunday: 11:00\u202fAM\u2009–\u20093:00\u202fPM, 5:00\u2009–\u200910:00\u202fPM']}, 'photos': [{'name': 'places/ChIJdQviZLEZ2jERrfhC7JSeeOQ/photos/AVzFdbkSBefnqEjzuVMsLJ_jbksFxN_7aIiUyyufwG_MC0LqMdUwuL5U0mF9GZREKhdyLSsmOoGsmU_3Be6cG1aLTpLPVxmsVFKDaEsg2_5XyJRpyM7kNBnDskeLgCoWb-I0hIlBilhvSZPQtVWO9CiuxNDHQ-yUapBwCZtK', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMk4cJ_CGxMSftsV27BZWCsUmkkat-GTqdXgrRV!2e10!4m2!3m1!1s0x31da19b164e20b75:0xe4789e94ec42f8ad'}], 'priceRange': {'startPrice': {'currencyCode': 'SGD', 'units': '20'}, 'endPrice': {'currencyCode': 'SGD', 'units': '30'}}, 'reviews': []}, {'id': 'ChIJ0V6Dh20Y2jERXGRohtBmyPs', 'types': ['pizza_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 8686 4471', 'formattedAddress': '60 Springside Walk, #01-07 The Brooks I, Singapore 786020', 'rating': 4.9, 'websiteUri': 'https://www.mypizza.com.sg/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: Closed', 'Tuesday: 11:00\u202fAM\u2009–\u200911:00\u202fPM', 'Wednesday: 11:00\u202fAM\u2009–\u200911:00\u202fPM', 'Thursday: 11:00\u202fAM\u2009–\u200911:00\u202fPM', 'Friday: 11:00\u202fAM\u2009–\u200911:00\u202fPM', 'Saturday: 11:00\u202fAM\u2009–\u200911:00\u202fPM', 'Sunday: 11:00\u202fAM\u2009–\u200911:00\u202fPM']}, 'userRatingCount': 728, 'displayName': {'text': 'MyPizza', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: Closed', 'Tuesday: 11:00\u202fAM\u2009–\u200911:00\u202fPM', 'Wednesday: 11:00\u202fAM\u2009–\u200911:00\u202fPM', 'Thursday: 11:00\u202fAM\u2009–\u200911:00\u202fPM', 'Friday: 11:00\u202fAM\u2009–\u200911:00\u202fPM', 'Saturday: 11:00\u202fAM\u2009–\u200911:00\u202fPM', 'Sunday: 11:00\u202fAM\u2009–\u200911:00\u202fPM']}, 'photos': [{'name': 'places/ChIJ0V6Dh20Y2jERXGRohtBmyPs/photos/AVzFdbm6eX1_7C5MXca739O7yXaEjre81SsKnr-ZT2dV6jxRfE_wRsvcYHe0FsaTF0p9iStdCM3D91jxSVVsPVqcqFJL9NY7JMXUfarKJ8sGDq6kgREfNC9sGNJz3bhacGL-iAwY8KyMKVotkVrjwmAau0bOmLP4UCpjFw9q', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMzsXwGSoqmfbrt1CUU-027d8k4IRm1J6aN7bGX!2e10!4m2!3m1!1s0x31da186d87835ed1:0xfbc866d08668645c'}], 'priceRange': {'startPrice': {'currencyCode': 'SGD', 'units': '10'}, 'endPrice': {'currencyCode': 'SGD', 'units': '20'}}, 'reviews': []}, {'id': 'ChIJ8VXygBoZ2jERa2BpTTvZ4jM', 'types': ['bar', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'formattedAddress': '20A Bali Ln, Singapore 189856', 'rating': 4.9, 'websiteUri': 'http://puffybois.com/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 6:00\u202fPM\u2009–\u200912:00\u202fAM', 'Tuesday: Closed', 'Wednesday: Closed', 'Thursday: 6:00\u202fPM\u2009–\u200912:00\u202fAM', 'Friday: 6:00\u202fPM\u2009–\u200912:00\u202fAM', 'Saturday: 6:00\u202fPM\u2009–\u200912:00\u202fAM', 'Sunday: 6:00\u202fPM\u2009–\u200912:00\u202fAM']}, 'userRatingCount': 90, 'displayName': {'text': 'Puffy Bois pizza and slices', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 6:00\u202fPM\u2009–\u200912:00\u202fAM', 'Tuesday: Closed', 'Wednesday: Closed', 'Thursday: Closed', 'Friday: 6:00\u202fPM\u2009–\u200912:00\u202fAM', 'Saturday: 6:00\u202fPM\u2009–\u200912:00\u202fAM', 'Sunday: 6:00\u202fPM\u2009–\u200912:00\u202fAM']}, 'photos': [{'name': 'places/ChIJ8VXygBoZ2jERa2BpTTvZ4jM/photos/AVzFdbkHysvmDcMELLD0cFP0zWT1DdTh4inYV7ASzEcalYyh4vEcSBZocBNtahbSol-cB00PWXxelXWO1Q-doFutPuSToh7bWUktScCavAtewZXm-7SQzt1ZOYQK0Sy79rwwYn1tzMbVLC9qiw_MpYzTmhrC4gYLI1WPOVU5', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipN2SYFFsQkZae3M2pMqqs06pyMJ-gCMEpYtHBjC!2e10!4m2!3m1!1s0x31da191a80f255f1:0x33e2d93b4d69606b'}], 'reviews': []}, {'id': 'ChIJ64N3fQoX2jERnAykmps0LYg', 'types': ['italian_restaurant', 'pizza_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 6282 5031', 'formattedAddress': '15 Jln Riang, #3, Singapore 358987', 'rating': 4.4, 'websiteUri': 'http://www.lapizzaiola.com.sg/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:30\u202fPM', 'Tuesday: Closed', 'Wednesday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:30\u202fPM', 'Thursday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:30\u202fPM', 'Friday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:30\u202fPM', 'Saturday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:30\u202fPM', 'Sunday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:30\u202fPM']}, 'priceLevel': 'PRICE_LEVEL_MODERATE', 'userRatingCount': 956, 'displayName': {'text': 'La Pizzaiola @ Jalan Riang', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:30\u202fPM', 'Tuesday: Closed', 'Wednesday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:30\u202fPM', 'Thursday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:30\u202fPM', 'Friday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:30\u202fPM', 'Saturday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:30\u202fPM', 'Sunday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:30\u202fPM']}, 'photos': [{'name': 'places/ChIJ64N3fQoX2jERnAykmps0LYg/photos/AVzFdbmg7wPMewFh65piIF-St1lv3SV3X-lI6LiCORbjl4ndoEB_XTjq0zJZVbTYJvWc5NxbibrOOtTyzocV-x1GqlWfYIfNUUQlAIFFbGSxZheeFxM08D_dwT9VwcYAu4qLO99XHCMtYDSvPhfo86XSbT4QFOGTsQE2bF4x', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMZ_qMr0HDeNTEo6ADOSMtuz9KfsVSIG4YEcvex!2e10!4m2!3m1!1s0x31da170a7d7783eb:0x882d349b9aa40c9c'}], 'reviews': []}, {'id': 'ChIJ9_SgF7EZ2jERPvKe8C4ZA1Q', 'types': ['pizza_restaurant', 'meal_delivery', 'food_delivery', 'food_store', 'store', 'meal_takeaway', 'italian_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 9725 6255', 'formattedAddress': '52 Kandahar St, Singapore 198901', 'rating': 4.3, 'websiteUri': 'https://www.cicheti.com/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u20099:30\u202fPM', 'Tuesday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u20099:30\u202fPM', 'Wednesday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u20099:30\u202fPM', 'Thursday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u20099:30\u202fPM', 'Friday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Saturday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Sunday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u20099:30\u202fPM']}, 'priceLevel': 'PRICE_LEVEL_EXPENSIVE', 'userRatingCount': 1228, 'displayName': {'text': 'Cicheti', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u20099:30\u202fPM', 'Tuesday: 12:00\u2009–\u20092:30\u202fPM', 'Wednesday: Closed', 'Thursday: Closed', 'Friday: Closed', 'Saturday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Sunday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u20099:30\u202fPM']}, 'photos': [{'name': 'places/ChIJ9_SgF7EZ2jERPvKe8C4ZA1Q/photos/AVzFdblIL-93tjeWNRvoKOE1_mqA1vgaDzaMtGBPF97BcE0e5dK8uvbk8MYpdC2z1Pyz3yWpwvLO_Gt5D_keOfOG6npBENSJAZm4LLReg_-wfY1k6ao8OFgkxNlZsWgrc6fEsSMAxfhLn7mstvmZmn6bdGsVrUO0Eo3lIqKd', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMiPuzxEtpYqpPeDn3IccYXbdby4_8k9xpsVCcL!2e10!4m2!3m1!1s0x31da19b117a0f4f7:0x5403192ef09ef23e'}], 'reviews': []}, {'id': 'ChIJqafCRg0Z2jERa6yZHL6jffA', 'types': ['pizza_restaurant', 'wine_bar', 'bar', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 9821 9362', 'formattedAddress': '28 Ann Siang Rd, #B1-01, Singapore 069708', 'rating': 4.4, 'websiteUri': 'http://www.bluelabelpizza.com/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u200911:00\u202fPM', 'Tuesday: 12:00\u2009–\u200911:00\u202fPM', 'Wednesday: 12:00\u2009–\u200911:00\u202fPM', 'Thursday: 12:00\u2009–\u200911:00\u202fPM', 'Friday: 12:00\u2009–\u200911:00\u202fPM', 'Saturday: 12:00\u2009–\u200911:00\u202fPM', 'Sunday: 12:00\u2009–\u200911:00\u202fPM']}, 'userRatingCount': 934, 'displayName': {'text': 'Blue Label Pizza & Wine', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u200911:00\u202fPM', 'Tuesday: 12:00\u2009–\u200911:00\u202fPM', 'Wednesday: 12:00\u2009–\u200911:00\u202fPM', 'Thursday: 12:00\u2009–\u200911:00\u202fPM', 'Friday: 12:00\u2009–\u200911:00\u202fPM', 'Saturday: 12:00\u2009–\u200911:00\u202fPM', 'Sunday: 12:00\u2009–\u200911:00\u202fPM']}, 'photos': [{'name': 'places/ChIJqafCRg0Z2jERa6yZHL6jffA/photos/AVzFdblYtNhsGbTYfzowkISc-lFU_Ghl4TdlGgVyA-H8WI4EaF0ByQLHqNzVgD7Zu2wYNr1PQCo1Dks8VVZiecI7aT1Gx3t1gpfqkqGeGG5iErCMyC7BkeSw1L0pmy-BR-b544aRDofpEVrA_GQB575NPYtsZYzuHxy87t1e', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNS8BzdoWuziPjHp0fGLM_T2Jz6nkWsSr8qXzV8!2e10!4m2!3m1!1s0x31da190d46c2a7a9:0xf07da3be1c99ac6b'}], 'reviews': []}, {'id': 'ChIJGxgclssj2jER9EUdkVR-DeU', 'types': ['meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 8913 0331', 'formattedAddress': "61 St Patrick's Rd, Singapore 424174", 'rating': 4.7, 'websiteUri': 'https://www.facebook.com/profile.php?id=100090802457305&mibextid=ZbWKwL', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: Closed', 'Tuesday: Closed', 'Wednesday: Closed', 'Thursday: Closed', 'Friday: 5:00\u2009–\u20099:00\u202fPM', 'Saturday: 5:00\u2009–\u20099:00\u202fPM', 'Sunday: 5:00\u2009–\u20099:00\u202fPM']}, 'userRatingCount': 323, 'displayName': {'text': 'The Long Weekend Pizza', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: Closed', 'Tuesday: Closed', 'Wednesday: Closed', 'Thursday: Closed', 'Friday: 5:00\u2009–\u20099:00\u202fPM', 'Saturday: 5:00\u2009–\u20099:00\u202fPM', 'Sunday: 5:00\u2009–\u20099:00\u202fPM']}, 'photos': [{'name': 'places/ChIJGxgclssj2jER9EUdkVR-DeU/photos/AVzFdbmot_VCH2Nwc25iZy_GkBlrEqrzy3xQgmlNEuoTgstblOebjKLb9fP8icEoFii7C3w1ESQO1xVK6MT6086i3S3yw66gWw7iw5xj06eYfxNvcIO52HtYJh0kw58Jw4kjCL2_zyrdNLdKowDZL-BsMYQi_Hi-WQlbbNZl', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNg-8YXItUVYIRRBjjwB6pHOAkixcUa3qbaOJqa!2e10!4m2!3m1!1s0x31da23cb961c181b:0xe50d7e54911d45f4'}], 'priceRange': {'startPrice': {'currencyCode': 'SGD', 'units': '10'}, 'endPrice': {'currencyCode': 'SGD', 'units': '20'}}, 'reviews': []}, {'id': 'ChIJZQYkJVUW2jERZf7McVL4Oco', 'types': ['italian_restaurant', 'steak_house', 'pizza_restaurant', 'brunch_restaurant', 'farm', 'bar', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 9820 7969', 'formattedAddress': '27 Lichfield Rd, Singapore 556847', 'rating': 4.6, 'websiteUri': 'https://www.bacibacirestaurantsg.com/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u20092:00\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Tuesday: Closed', 'Wednesday: 6:00\u2009–\u200910:00\u202fPM', 'Thursday: 12:00\u2009–\u20092:00\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Friday: 12:00\u2009–\u20092:00\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Saturday: 12:00\u2009–\u20092:00\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Sunday: 12:00\u2009–\u20092:30\u202fPM, 5:30\u2009–\u20099:30\u202fPM']}, 'priceLevel': 'PRICE_LEVEL_EXPENSIVE', 'userRatingCount': 921, 'displayName': {'text': 'Baci Baci Ristorante Italiano', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u20092:00\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Tuesday: 6:00\u2009–\u200910:00\u202fPM', 'Wednesday: 12:00\u2009–\u20092:00\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Thursday: 12:00\u2009–\u20092:00\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Friday: 12:00\u2009–\u20092:00\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Saturday: 12:00\u2009–\u20092:00\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Sunday: 12:00\u2009–\u20092:30\u202fPM, 5:30\u2009–\u20099:30\u202fPM']}, 'photos': [{'name': 'places/ChIJZQYkJVUW2jERZf7McVL4Oco/photos/AVzFdbnPLFBMJA2LiG3tR4EGx0lbnGs7poh8LSCOs8_otZdEAEn-jelk6ks6wtpr7PkwJyeot78JR4hGUFdYexQuO-3Blsi6ERjcYFbSS_Z8l7_3aq9s6TSGhi-X6ErlhWfTGRC04ZMFAoqmbH41Q9sSJYtGkZ5ABIIhZMkj', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipO1ukxO-dWWFM3VDgg2woUjmOJBjui2NHwvZcvH!2e10!4m2!3m1!1s0x31da165525240665:0xca39f85271ccfe65'}], 'reviews': []}, {'id': 'ChIJjYlQqlMQ2jERNTV5U98WYMY', 'types': ['italian_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 6710 7150', 'formattedAddress': '4 Hillview Rise, #02 - 01, Singapore 667979', 'rating': 4.5, 'websiteUri': 'https://uqr.to/ioitalianosteriasg', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 11:30\u202fAM\u2009–\u200910:00\u202fPM', 'Tuesday: 11:30\u202fAM\u2009–\u200910:00\u202fPM', 'Wednesday: 11:30\u202fAM\u2009–\u200910:00\u202fPM', 'Thursday: 11:30\u202fAM\u2009–\u200910:00\u202fPM', 'Friday: 11:30\u202fAM\u2009–\u200910:00\u202fPM', 'Saturday: 10:00\u202fAM\u2009–\u200910:00\u202fPM', 'Sunday: 10:00\u202fAM\u2009–\u200910:00\u202fPM']}, 'priceLevel': 'PRICE_LEVEL_MODERATE', 'userRatingCount': 3841, 'displayName': {'text': 'iO Italian Osteria', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 11:30\u202fAM\u2009–\u200910:00\u202fPM', 'Tuesday: 11:30\u202fAM\u2009–\u200910:00\u202fPM', 'Wednesday: 11:30\u202fAM\u2009–\u200910:00\u202fPM', 'Thursday: 11:30\u202fAM\u2009–\u200910:00\u202fPM', 'Friday: 11:30\u202fAM\u2009–\u200910:00\u202fPM', 'Saturday: 10:00\u202fAM\u2009–\u200910:00\u202fPM', 'Sunday: 10:00\u202fAM\u2009–\u200910:00\u202fPM']}, 'photos': [{'name': 'places/ChIJjYlQqlMQ2jERNTV5U98WYMY/photos/AVzFdbmqj--Q_BYiE91glXOxGO8CFgBzplmYRYcwU-Y3ZLsbxoRVGsuiDFxLt7bBCOM3gzzxvkkhCIGBTwfi85UgX7weLrrUcztP8psmYLLn_9z-EGQj6WwgzTtXbBlae4hnxsD8QGuDQn5pvnOPi--sARbSv2Ie1XLJFCY3', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOTI0mvmRGt5Raws5fEuKgAFWRou8KiXtBoi6Tb!2e10!4m2!3m1!1s0x31da1053aa50898d:0xc66016df53793535'}], 'reviews': []}, {'id': 'ChIJocenEPoZ2jERN_3KRHOPVdE', 'types': ['italian_restaurant', 'pizza_restaurant', 'meal_delivery', 'food_delivery', 'food_store', 'store', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 8228 8480', 'formattedAddress': '11 Sam Leong Rd, #01-09 Trio Mall, Singapore 207903', 'rating': 4.8, 'websiteUri': 'http://fernandospizza.sg/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: Closed', 'Tuesday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Wednesday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Thursday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Friday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Saturday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Sunday: 11:00\u202fAM\u2009–\u200910:00\u202fPM']}, 'userRatingCount': 134, 'displayName': {'text': "Fernando's Pizza @ Trio", 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: Closed', 'Tuesday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Wednesday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Thursday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Friday: 11:00\u202fAM\u2009–\u20092:30\u202fPM, 5:00\u2009–\u200910:00\u202fPM', 'Saturday: 11:00\u202fAM\u2009–\u200910:00\u202fPM', 'Sunday: 11:00\u202fAM\u2009–\u200910:00\u202fPM']}, 'photos': [{'name': 'places/ChIJocenEPoZ2jERN_3KRHOPVdE/photos/AVzFdbnm3Khu0d9r8HpTwdB1B7ySpJuj_xX6ma-mkSRqjYt51DzSFfF4iHUO4lRC9NsWnpfe2jRRIhADG90M-synvU5ibfU2WBwqkhQHruHbcECXog47Z6mivjGDoesnxwMmIPtQWSR-ccctnMPNvL3G3GbUb33NSaoH98v3', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPr9OTTX8sCYfS3QHVKhVEjqusRZAjkABkotksT!2e10!4m2!3m1!1s0x31da19fa10a7c7a1:0xd1558f7344cafd37'}], 'priceRange': {'startPrice': {'currencyCode': 'SGD', 'units': '10'}, 'endPrice': {'currencyCode': 'SGD', 'units': '20'}}, 'reviews': []}, {'id': 'ChIJ-a61hhQZ2jERbWKrar_qbj4', 'types': ['pizza_restaurant', 'meal_delivery', 'wine_bar', 'food_delivery', 'bar', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 6970 6592', 'formattedAddress': '50 Circular Rd, Singapore 049405', 'rating': 4.3, 'websiteUri': 'https://wildchildpizzette.com/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 11:45\u202fAM\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:30\u202fPM', 'Tuesday: 11:45\u202fAM\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:30\u202fPM', 'Wednesday: 11:45\u202fAM\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:30\u202fPM', 'Thursday: 11:45\u202fAM\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:30\u202fPM', 'Friday: 11:45\u202fAM\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:30\u202fPM', 'Saturday: 11:45\u202fAM\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:30\u202fPM', 'Sunday: 11:45\u202fAM\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:30\u202fPM']}, 'userRatingCount': 306, 'displayName': {'text': 'Wild Child Pizzette', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 11:45\u202fAM\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:30\u202fPM', 'Tuesday: 11:45\u202fAM\u2009–\u20092:30\u202fPM', 'Wednesday: Closed', 'Thursday: Closed', 'Friday: 11:45\u202fAM\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:30\u202fPM', 'Saturday: 11:45\u202fAM\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:30\u202fPM', 'Sunday: 11:45\u202fAM\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:30\u202fPM']}, 'photos': [{'name': 'places/ChIJ-a61hhQZ2jERbWKrar_qbj4/photos/AVzFdbkH8Lh9UOOmFrT5PMeaexXndidazdNb5IOeAWpOqhI5Fk5lvRjo8ccob4D33Dl-IIWwOOiB9OOSxzM9tQjPnUHi9myvVPGGGwil_JmESDyb5AfbHQ-6pm7Y6jElaRI4R_ebJk3rgYuesyI2e0IiYI5w-bx4hRI_VKaV', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMQK96bSxfLJNgbZQgdOSgO_q3JBtrVN5VG80_S!2e10!4m2!3m1!1s0x31da191486b5aef9:0x3e6eeabf6aab626d'}], 'reviews': []}, {'id': 'ChIJJymUrDwa2jERisNvIE7sD6U', 'types': ['italian_restaurant', 'grocery_store', 'food_store', 'store', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 6475 9598', 'formattedAddress': '9 Dempsey Rd, #01-09 Dempsey Hill, Singapore 247697', 'rating': 4.4, 'websiteUri': 'https://www.forketta.net/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 6:00\u2009–\u200910:00\u202fPM', 'Tuesday: 6:00\u2009–\u200910:00\u202fPM', 'Wednesday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Thursday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Friday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:30\u202fPM', 'Saturday: 11:30\u202fAM\u2009–\u20094:30\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Sunday: 11:30\u202fAM\u2009–\u20094:30\u202fPM, 6:00\u2009–\u20099:30\u202fPM']}, 'userRatingCount': 1476, 'displayName': {'text': 'FORKETTA -- an artisan Italian restaurant at Dempseyhill - make the best wood-fired baked sourdough Pizza in Singapore', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 6:00\u2009–\u200910:00\u202fPM', 'Tuesday: 6:00\u2009–\u200910:00\u202fPM', 'Wednesday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Thursday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Friday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200910:30\u202fPM', 'Saturday: 11:30\u202fAM\u2009–\u20094:30\u202fPM, 6:00\u2009–\u200910:00\u202fPM', 'Sunday: 11:30\u202fAM\u2009–\u20094:30\u202fPM, 6:00\u2009–\u20099:30\u202fPM']}, 'photos': [{'name': 'places/ChIJJymUrDwa2jERisNvIE7sD6U/photos/AVzFdbk2WtThtGSYBkEDaJZ7b4N_i7TKMhW7kH4YW5x2W9E-NPX7q80HWCKyc_6zIzqzUOkn_0YS6l66CEaAr4Lo52N5r4uA-NN75850WejBEy7GmXLIZzK9RBsOIHDVdRxapkud57QVjLGl-vZCW5METJxjfI9C-QD5ux4a', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMDQIIRJvwD-FJFGSOBhJIE7OBoyI92ee1zhvWe!2e10!4m2!3m1!1s0x31da1a3cac942927:0xa50fec4e206fc38a'}], 'reviews': []}, {'id': 'ChIJVzhOFlEQ2jER3n2PjmRDbbk', 'types': ['italian_restaurant', 'pizza_restaurant', 'catering_service', 'food_delivery', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 8499 7156', 'formattedAddress': '400 Upper Bukit Timah Rd, Singapore 678050', 'rating': 4.6, 'websiteUri': 'https://acquaefarina.com.sg/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: Closed', 'Tuesday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:00\u202fPM', 'Wednesday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:00\u202fPM', 'Thursday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:00\u202fPM', 'Friday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:00\u202fPM', 'Saturday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:00\u202fPM', 'Sunday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:00\u202fPM']}, 'priceLevel': 'PRICE_LEVEL_MODERATE', 'userRatingCount': 522, 'displayName': {'text': 'Acqua e Farina . Rail Mall', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: Closed', 'Tuesday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:00\u202fPM', 'Wednesday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:00\u202fPM', 'Thursday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:00\u202fPM', 'Friday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:00\u202fPM', 'Saturday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:00\u202fPM', 'Sunday: 11:30\u202fAM\u2009–\u20092:30\u202fPM, 5:30\u2009–\u200910:00\u202fPM']}, 'photos': [{'name': 'places/ChIJVzhOFlEQ2jER3n2PjmRDbbk/photos/AVzFdbkryPzYxn1uEYr9UOv5Z3NnyBf1FpZe4izEIpkw_pwFTEGKagij6NBLJpqD_Z1Pcw8bN90MoAzjEb86GAnodqMlt3b9mDX_B5xzijzchXQj3J86zm9z0ZXTv5XPeCX61R1yX7v2ww2LkVNRLiYOXtoW3BxOXof8Iasm', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipM0q8d2LdXoRJ2hIeqZqaMf-NKXpAZCoAkOYv0Q!2e10!4m2!3m1!1s0x31da1051164e3857:0xb96d43648e8f7dde'}], 'reviews': []}, {'id': 'ChIJvS1V8AoZ2jERnIjjDjb0Whk', 'types': ['italian_restaurant', 'meal_delivery', 'food_delivery', 'bar', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'internationalPhoneNumber': '+65 6723 7733', 'formattedAddress': '33 Hongkong St, Singapore 059672', 'rating': 4.3, 'websiteUri': 'http://www.amorestaurant.sg/', 'regularOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Tuesday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Wednesday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Thursday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Friday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Saturday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Sunday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM']}, 'priceLevel': 'PRICE_LEVEL_EXPENSIVE', 'userRatingCount': 1310, 'displayName': {'text': 'Amò', 'languageCode': 'en'}, 'currentOpeningHours': {'weekdayDescriptions': ['Monday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Tuesday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Wednesday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Thursday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Friday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Saturday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM', 'Sunday: 12:00\u2009–\u20092:30\u202fPM, 6:00\u2009–\u200911:00\u202fPM']}, 'photos': [{'name': 'places/ChIJvS1V8AoZ2jERnIjjDjb0Whk/photos/AVzFdbmVHg1C1Favin8gETapJA6SJEmRXf4mnPNqZrz0PNrNdxa-U-BaMEcYqE0-YIwh0DgQUf537iYmxM4I0L058hsob7QcejdgnPyyu8TRTkHD6d3wwH_nr4taoOZmykmExZtTzc5x9tKoyl7GShkSLGTyxJbvDrXc-SoN', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOI-ysbO31BVJQNXV2fYi5EazaXlt02IgjsMfvB!2e10!4m2!3m1!1s0x31da190af0552dbd:0x195af4360ee3889c'}], 'reviews': []}]
+2025-01-28 05:57:59,460 - app.api.v1.locations - INFO - Found 20 raw places results
+2025-01-28 05:57:59,460 - app.api.v1.locations - DEBUG - Sorted 20 places
+2025-01-28 05:57:59,462 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'iO Italian Osteria', 'address': '4 Hillview Rise, #02 - 01, Singapore 667979', 'openingHours': {'Mon': '1130-2200', 'Tue': '1130-2200', 'Wed': '1130-2200', 'Thu': '1130-2200', 'Fri': '1130-2200', 'Sat': '1000-2200', 'Sun': '1000-2200'}, 'contactNumber': '+65-6710-7150', 'description': '', 'citation': []}, 'extra_data': {'types': ['italian_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'Please check the website for more information.', 'reviews': [], 'photos': [{'name': 'places/ChIJjYlQqlMQ2jERNTV5U98WYMY/photos/AVzFdbmqj--Q_BYiE91glXOxGO8CFgBzplmYRYcwU-Y3ZLsbxoRVGsuiDFxLt7bBCOM3gzzxvkkhCIGBTwfi85UgX7weLrrUcztP8psmYLLn_9z-EGQj6WwgzTtXbBlae4hnxsD8QGuDQn5pvnOPi--sARbSv2Ie1XLJFCY3', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOTI0mvmRGt5Raws5fEuKgAFWRou8KiXtBoi6Tb!2e10!4m2!3m1!1s0x31da1053aa50898d:0xc66016df53793535'}], 'editorialSummary': '', 'websiteUri': 'https://uqr.to/ioitalianosteriasg'}}
+2025-01-28 05:58:07,797 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'd.o.c', 'address': '26 Beach Rd, B1-22 South Beach Avenue, Singapore 189768', 'openingHours': {'Mon': '1100-2200', 'Tue': '1100-2200', 'Wed': '1100-2200', 'Thu': '1100-2200', 'Fri': '1100-2200', 'Sat': '1100-2200', 'Sun': '1100-2200'}, 'contactNumber': '+65-6015-0122', 'description': '', 'citation': []}, 'extra_data': {'types': ['italian_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'Please check the website for more information.', 'reviews': [], 'photos': [{'name': 'places/ChIJq9GMiesZ2jER4yuwp540AV4/photos/AVzFdbmdXZ6jFiY25J-1EdPZTq3D5fvZUS_ZvcoYOpjyvTc-43P2SlzHgnwBxb7WxhmWBsJ5iUnHGOI2A1olz_eejlfpKWl7YZSMzGXQN_qjwy98JZFP4hdGpem2nz04WzADnZ05XGncZHRemZQd-fzESP4R9XBkJJrbJW9R', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPlnebbcNG6Agvl8Upjc0-BlL8CBin_lU2SHYBz!2e10!4m2!3m1!1s0x31da19eb898cd1ab:0x5e01349ea7b02be3'}], 'editorialSummary': '', 'websiteUri': 'https://www.docsingapore.com/'}}
+2025-01-28 05:58:13,978 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'FORKETTA -- an artisan Italian restaurant at Dempseyhill - make the best wood-fired baked sourdough Pizza in Singapore', 'address': '9 Dempsey Rd, #01-09 Dempsey Hill, Singapore 247697', 'openingHours': {'Mon': '1800-2200', 'Tue': '1800-2200', 'Wed': '1130-1430, 1800-2200', 'Thu': '1200-1430, 1800-2200', 'Fri': '1200-1430, 1800-2230', 'Sat': '1130-1630, 1800-2200', 'Sun': '1130-1630, 1800-2130'}, 'contactNumber': '+65-6475-9598', 'description': '', 'citation': []}, 'extra_data': {'types': ['italian_restaurant', 'grocery_store', 'food_store', 'store', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'Please check the website for more information.', 'reviews': [], 'photos': [{'name': 'places/ChIJJymUrDwa2jERisNvIE7sD6U/photos/AVzFdbk2WtThtGSYBkEDaJZ7b4N_i7TKMhW7kH4YW5x2W9E-NPX7q80HWCKyc_6zIzqzUOkn_0YS6l66CEaAr4Lo52N5r4uA-NN75850WejBEy7GmXLIZzK9RBsOIHDVdRxapkud57QVjLGl-vZCW5METJxjfI9C-QD5ux4a', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMDQIIRJvwD-FJFGSOBhJIE7OBoyI92ee1zhvWe!2e10!4m2!3m1!1s0x31da1a3cac942927:0xa50fec4e206fc38a'}], 'editorialSummary': '', 'websiteUri': 'https://www.forketta.net/'}}
+2025-01-28 05:58:19,633 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'LINO @ Binjai Park', 'address': '7 Binjai Park, Singapore 589821', 'openingHours': {'Mon': '1200-1415, 1730-2130', 'Tue': 'Closed', 'Wed': '1200-1415, 1730-2130', 'Thu': '1200-1415, 1730-2130', 'Fri': '1200-1415, 1730-2130', 'Sat': '1200-1415, 1730-2130', 'Sun': '1200-1415, 1730-2130'}, 'contactNumber': '+65-9738-0891', 'description': '', 'citation': []}, 'extra_data': {'types': ['italian_restaurant', 'pizza_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'Please check the website for more information.', 'reviews': [], 'photos': [{'name': 'places/ChIJUw9ZUoUQ2jER2vah4NE87Io/photos/AVzFdbkN5_XfokEEgLm4KG6z1ifcyVyBjXj6ICtF7OZFChQb6ZwEx7GDiDU5Xr0-N7HEpR6A2a34JWhbHN3wGRk45M9r_OWutbVmoFxq7tAVzAGL3hoglEDh9_5-dngkGMAdr33c7lC0Y7vej10-JgkrLIU5XzIU75VaF0wC', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMuUMtpOqUmyT14Y0JU_6ynAOYfrR5ywGhJ7rYl!2e10!4m2!3m1!1s0x31da108552590f53:0x8aec3cd1e0a1f6da'}], 'editorialSummary': '', 'websiteUri': 'http://www.linorestaurant.com/'}}
+2025-01-28 05:58:26,637 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'Osteria Mozza', 'address': '333 Orchard Rd, Level 5, Singapore 238867', 'openingHours': {'Mon': '1200-1430, 1500-2200', 'Tue': '1200-1430, 1500-2200', 'Wed': '1200-1430, 1500-2200', 'Thu': '1200-1430, 1500-2200', 'Fri': '1200-1430, 1500-2200', 'Sat': '1200-1430, 1700-2200', 'Sun': '1200-1430, 1700-2200'}, 'contactNumber': '+65-6831-6271', 'description': '', 'citation': []}, 'extra_data': {'types': ['italian_restaurant', 'pizza_restaurant', 'wine_bar', 'bar', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'SGD $100-', 'reviews': [], 'photos': [{'name': 'places/ChIJLXhQg6UZ2jER_QGp15ggBTY/photos/AVzFdbmMReCB0BCS4XQrBvf-FHIsn7he2uvq7uJdTOL6_qObY8R1DUINO_v7CA_jv9Pq5_lCTVx-oZ8Yu4Y4RqpeYjD9ZwJWOtn7tXIpe0PyzZryckDbbniX594Omr_3Cyb0nPy4ZvWh-9OTa94moN6_0CD7SQWVvcii3tY', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNqdnm-eavHQthNCN9iLdfFYAYykdKzOd-94GE!2e10!4m2!3m1!1s0x31da19a58350782d:0x36052098d7a901fd'}], 'editorialSummary': '', 'websiteUri': 'https://osteriamozza.com.sg/'}}
+2025-01-28 05:58:34,725 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'Amò', 'address': '33 Hongkong St, Singapore 059672', 'openingHours': {'Mon': '1200-1430, 1800-2300', 'Tue': '1200-1430, 1800-2300', 'Wed': '1200-1430, 1800-2300', 'Thu': '1200-1430, 1800-2300', 'Fri': '1200-1430, 1800-2300', 'Sat': '1200-1430, 1800-2300', 'Sun': '1200-1430, 1800-2300'}, 'contactNumber': '+65-6723-7733', 'description': '', 'citation': []}, 'extra_data': {'types': ['italian_restaurant', 'meal_delivery', 'food_delivery', 'bar', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'Please check the website for more information.', 'reviews': [], 'photos': [{'name': 'places/ChIJvS1V8AoZ2jERnIjjDjb0Whk/photos/AVzFdbmVHg1C1Favin8gETapJA6SJEmRXf4mnPNqZrz0PNrNdxa-U-BaMEcYqE0-YIwh0DgQUf537iYmxM4I0L058hsob7QcejdgnPyyu8TRTkHD6d3wwH_nr4taoOZmykmExZtTzc5x9tKoyl7GShkSLGTyxJbvDrXc-SoN', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOI-ysbO31BVJQNXV2fYi5EazaXlt02IgjsMfvB!2e10!4m2!3m1!1s0x31da190af0552dbd:0x195af4360ee3889c'}], 'editorialSummary': '', 'websiteUri': 'http://www.amorestaurant.sg/'}}
+2025-01-28 05:58:37,493 - app.api.v1.locations - ERROR - Error processing place 6: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 72, in search_locations
+    description = generate_place_description(place_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_place_description.py", line 78, in generate_place_description
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:37,498 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'Cicheti', 'address': '52 Kandahar St, Singapore 198901', 'openingHours': {'Mon': '1200-1430, 1800-2130', 'Tue': '1200-1430', 'Wed': 'Closed', 'Thu': 'Closed', 'Fri': 'Closed', 'Sat': '1200-1430, 1800-2200', 'Sun': '1200-1430, 1800-2130'}, 'contactNumber': '+65-9725-6255', 'description': '', 'citation': []}, 'extra_data': {'types': ['pizza_restaurant', 'meal_delivery', 'food_delivery', 'food_store', 'store', 'meal_takeaway', 'italian_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'Please check the website for more information.', 'reviews': [], 'photos': [{'name': 'places/ChIJ9_SgF7EZ2jERPvKe8C4ZA1Q/photos/AVzFdblIL-93tjeWNRvoKOE1_mqA1vgaDzaMtGBPF97BcE0e5dK8uvbk8MYpdC2z1Pyz3yWpwvLO_Gt5D_keOfOG6npBENSJAZm4LLReg_-wfY1k6ao8OFgkxNlZsWgrc6fEsSMAxfhLn7mstvmZmn6bdGsVrUO0Eo3lIqKd', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMiPuzxEtpYqpPeDn3IccYXbdby4_8k9xpsVCcL!2e10!4m2!3m1!1s0x31da19b117a0f4f7:0x5403192ef09ef23e'}], 'editorialSummary': '', 'websiteUri': 'https://www.cicheti.com/'}}
+2025-01-28 05:58:37,797 - app.api.v1.locations - ERROR - Error processing place 7: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:37,799 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': "L'antica Pizzeria Da Michele, Singapore", 'address': '8 Club St, Unit #01-08, Singapore 069472', 'openingHours': {'Mon': '1200-1500, 1800-2300', 'Tue': '1200-1500, 1800-2300', 'Wed': '1200-1500, 1800-2300', 'Thu': '1200-1500, 1800-2300', 'Fri': '1200-1500, 1800-2300', 'Sat': '1200-1500, 1800-2300', 'Sun': '1200-1600'}, 'contactNumber': '+65-9823-5724', 'description': '', 'citation': []}, 'extra_data': {'types': ['italian_restaurant', 'pizza_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'Please check the website for more information.', 'reviews': [], 'photos': [{'name': 'places/ChIJp-p9TQAZ2jERsKCEh6lgKcQ/photos/AVzFdbn4iBzd0LQ7HKNXeCoBoRwGXT1SIcXMSD8wS6uRnvyTqF9nfvIu0VzFfd6QxfSZu1W3Yb48uz_deRzNzkGp43oX87vBd3-r5gUn6QoQ3-B3iOKIDKQbzMdZK7kkMGnX3I4gJ-mUW4RgYuf07djCzSxbeb_ZkBo51SvD', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipO2ASVnNuYXfIzb7y4r9dZvaeTFr1e4dQxhv0G_!2e10!4m2!3m1!1s0x31da19004d7deaa7:0xc42960a98784a0b0'}], 'editorialSummary': '', 'websiteUri': 'https://www.damichele.sg/'}}
+2025-01-28 05:58:38,037 - app.api.v1.locations - ERROR - Error processing place 8: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:38,039 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'Baci Baci Ristorante Italiano', 'address': '27 Lichfield Rd, Singapore 556847', 'openingHours': {'Mon': '1200-1400, 1800-2200', 'Tue': '1800-2200', 'Wed': '1200-1400, 1800-2200', 'Thu': '1200-1400, 1800-2200', 'Fri': '1200-1400, 1800-2200', 'Sat': '1200-1400, 1800-2200', 'Sun': '1200-1430, 1730-2130'}, 'contactNumber': '+65-9820-7969', 'description': '', 'citation': []}, 'extra_data': {'types': ['italian_restaurant', 'steak_house', 'pizza_restaurant', 'brunch_restaurant', 'farm', 'bar', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'Please check the website for more information.', 'reviews': [], 'photos': [{'name': 'places/ChIJZQYkJVUW2jERZf7McVL4Oco/photos/AVzFdbnPLFBMJA2LiG3tR4EGx0lbnGs7poh8LSCOs8_otZdEAEn-jelk6ks6wtpr7PkwJyeot78JR4hGUFdYexQuO-3Blsi6ERjcYFbSS_Z8l7_3aq9s6TSGhi-X6ErlhWfTGRC04ZMFAoqmbH41Q9sSJYtGkZ5ABIIhZMkj', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipO1ukxO-dWWFM3VDgg2woUjmOJBjui2NHwvZcvH!2e10!4m2!3m1!1s0x31da165525240665:0xca39f85271ccfe65'}], 'editorialSummary': '', 'websiteUri': 'https://www.bacibacirestaurantsg.com/'}}
+2025-01-28 05:58:38,271 - app.api.v1.locations - ERROR - Error processing place 9: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:38,274 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'La Pizzaiola @ Jalan Riang', 'address': '15 Jln Riang, #3, Singapore 358987', 'openingHours': {'Mon': '1130-1430, 1730-2230', 'Tue': 'Closed', 'Wed': '1130-1430, 1730-2230', 'Thu': '1130-1430, 1730-2230', 'Fri': '1130-1430, 1730-2230', 'Sat': '1130-1430, 1730-2230', 'Sun': '1130-1430, 1730-2230'}, 'contactNumber': '+65-6282-5031', 'description': '', 'citation': []}, 'extra_data': {'types': ['italian_restaurant', 'pizza_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'Please check the website for more information.', 'reviews': [], 'photos': [{'name': 'places/ChIJ64N3fQoX2jERnAykmps0LYg/photos/AVzFdbmg7wPMewFh65piIF-St1lv3SV3X-lI6LiCORbjl4ndoEB_XTjq0zJZVbTYJvWc5NxbibrOOtTyzocV-x1GqlWfYIfNUUQlAIFFbGSxZheeFxM08D_dwT9VwcYAu4qLO99XHCMtYDSvPhfo86XSbT4QFOGTsQE2bF4x', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMZ_qMr0HDeNTEo6ADOSMtuz9KfsVSIG4YEcvex!2e10!4m2!3m1!1s0x31da170a7d7783eb:0x882d349b9aa40c9c'}], 'editorialSummary': '', 'websiteUri': 'http://www.lapizzaiola.com.sg/'}}
+2025-01-28 05:58:38,515 - app.api.v1.locations - ERROR - Error processing place 10: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:38,517 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'Goldenroy Sourdough Pizza', 'address': '125 Desker Rd, Singapore 209642', 'openingHours': {'Mon': 'Closed', 'Tue': 'Closed', 'Wed': 'Closed', 'Thu': 'Closed', 'Fri': '1200-2100', 'Sat': '1200-2100', 'Sun': '1200-2100'}, 'contactNumber': '+65-3129-4321', 'description': '', 'citation': []}, 'extra_data': {'types': ['pizza_restaurant', 'meal_delivery', 'food_delivery', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'SGD $20-30', 'reviews': [], 'photos': [{'name': 'places/ChIJNe4VBMI92jER2ZRUIE8NmHA/photos/AVzFdbnIgvJXT2jDAdo_MCLmO4HeuG5g12MBu-9AAJCa7srrshfmP5lqk-1f3Fpkc8ukV3TvFtdywl1mz9kpH8wy0XxrTptxrJhTymcw7BUgKVklGo0Z3EMHGgkkzIsyNCfeWVrfeG4q0JJ-gvnlZxuUtCE8asMlrTofi4pv', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPNzJF7pklDuWBjQNJ96mM86Ij-4AMFF-bgSDSE!2e10!4m2!3m1!1s0x31da3dc20415ee35:0x70980d4f205494d9'}], 'editorialSummary': '', 'websiteUri': 'http://goldenroy.com/'}}
+2025-01-28 05:58:38,820 - app.api.v1.locations - ERROR - Error processing place 11: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:38,822 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'Blue Label Pizza & Wine', 'address': '28 Ann Siang Rd, #B1-01, Singapore 069708', 'openingHours': {'Mon': '1200-2300', 'Tue': '1200-2300', 'Wed': '1200-2300', 'Thu': '1200-2300', 'Fri': '1200-2300', 'Sat': '1200-2300', 'Sun': '1200-2300'}, 'contactNumber': '+65-9821-9362', 'description': '', 'citation': []}, 'extra_data': {'types': ['pizza_restaurant', 'wine_bar', 'bar', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'Please check the website for more information.', 'reviews': [], 'photos': [{'name': 'places/ChIJqafCRg0Z2jERa6yZHL6jffA/photos/AVzFdblYtNhsGbTYfzowkISc-lFU_Ghl4TdlGgVyA-H8WI4EaF0ByQLHqNzVgD7Zu2wYNr1PQCo1Dks8VVZiecI7aT1Gx3t1gpfqkqGeGG5iErCMyC7BkeSw1L0pmy-BR-b544aRDofpEVrA_GQB575NPYtsZYzuHxy87t1e', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNS8BzdoWuziPjHp0fGLM_T2Jz6nkWsSr8qXzV8!2e10!4m2!3m1!1s0x31da190d46c2a7a9:0xf07da3be1c99ac6b'}], 'editorialSummary': '', 'websiteUri': 'http://www.bluelabelpizza.com/'}}
+2025-01-28 05:58:39,043 - app.api.v1.locations - ERROR - Error processing place 12: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:39,045 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'MyPizza', 'address': '60 Springside Walk, #01-07 The Brooks I, Singapore 786020', 'openingHours': {'Mon': 'Closed', 'Tue': '1100-2300', 'Wed': '1100-2300', 'Thu': '1100-2300', 'Fri': '1100-2300', 'Sat': '1100-2300', 'Sun': '1100-2300'}, 'contactNumber': '+65-8686-4471', 'description': '', 'citation': []}, 'extra_data': {'types': ['pizza_restaurant', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'SGD $10-20', 'reviews': [], 'photos': [{'name': 'places/ChIJ0V6Dh20Y2jERXGRohtBmyPs/photos/AVzFdbm6eX1_7C5MXca739O7yXaEjre81SsKnr-ZT2dV6jxRfE_wRsvcYHe0FsaTF0p9iStdCM3D91jxSVVsPVqcqFJL9NY7JMXUfarKJ8sGDq6kgREfNC9sGNJz3bhacGL-iAwY8KyMKVotkVrjwmAau0bOmLP4UCpjFw9q', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMzsXwGSoqmfbrt1CUU-027d8k4IRm1J6aN7bGX!2e10!4m2!3m1!1s0x31da186d87835ed1:0xfbc866d08668645c'}], 'editorialSummary': '', 'websiteUri': 'https://www.mypizza.com.sg/'}}
+2025-01-28 05:58:39,285 - app.api.v1.locations - ERROR - Error processing place 13: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:39,287 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'PizzaFace (Main)', 'address': '302 Beach Rd, #01-03 Concourse Skyline, Singapore 199600', 'openingHours': {'Mon': 'Closed', 'Tue': '1100-1430', 'Wed': '1100-1500, 1700-2200', 'Thu': '1100-1500, 1700-2200', 'Fri': '1100-1500, 1700-2200', 'Sat': '1100-1500, 1700-2200', 'Sun': '1100-1500, 1700-2200'}, 'contactNumber': '+65-6291-0200', 'description': '', 'citation': []}, 'extra_data': {'types': ['pizza_restaurant', 'meal_delivery', 'food_delivery', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'SGD $20-30', 'reviews': [], 'photos': [{'name': 'places/ChIJdQviZLEZ2jERrfhC7JSeeOQ/photos/AVzFdbkSBefnqEjzuVMsLJ_jbksFxN_7aIiUyyufwG_MC0LqMdUwuL5U0mF9GZREKhdyLSsmOoGsmU_3Be6cG1aLTpLPVxmsVFKDaEsg2_5XyJRpyM7kNBnDskeLgCoWb-I0hIlBilhvSZPQtVWO9CiuxNDHQ-yUapBwCZtK', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMk4cJ_CGxMSftsV27BZWCsUmkkat-GTqdXgrRV!2e10!4m2!3m1!1s0x31da19b164e20b75:0xe4789e94ec42f8ad'}], 'editorialSummary': '', 'websiteUri': 'http://www.pizzaface.sg/'}}
+2025-01-28 05:58:39,624 - app.api.v1.locations - ERROR - Error processing place 14: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:39,626 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': "Daniele's Pizza", 'address': '1 Changi Business Park Crescent, #01-19, Plaza 8, Podium, C, Singapore 486025', 'openingHours': {'Mon': '1100-1430, 1630-2200', 'Tue': '1100-1430, 1630-2200', 'Wed': '1100-1430, 1630-2200', 'Thu': '1100-1430, 1630-2200', 'Fri': '1100-1430, 1630-2200', 'Sat': '1100-1430, 1630-2200', 'Sun': 'Closed'}, 'contactNumber': '+65-6974-6030', 'description': '', 'citation': []}, 'extra_data': {'types': ['italian_restaurant', 'pizza_restaurant', 'food_store', 'store', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'SGD $20-30', 'reviews': [], 'photos': [{'name': 'places/ChIJ3c0dWFA92jER4S5AblPShQ4/photos/AVzFdbnlQl5bjBphH_dE-slJ7LlYEcgwWhp6jpp0AX5oldLelCobG_kjsho85Hi85L-59heqYnkPHc3b_GrKE2ralfEaXHp7p0Undxr4xTORuZFEQvV22UOj4vKNZ74Mhx59xGXRcL-oKcsSNuBZxdgRrDRk3AhuCygztP-Q', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipP9WM87n-lVCwGwpgtczvkH6Z3hl-ckgzvlWJcM!2e10!4m2!3m1!1s0x31da3d50581dcddd:0xe85d2536e402ee1'}], 'editorialSummary': '', 'websiteUri': 'https://www.danielespizza.com/'}}
+2025-01-28 05:58:39,876 - app.api.v1.locations - ERROR - Error processing place 15: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:39,879 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'Acqua e Farina . Rail Mall', 'address': '400 Upper Bukit Timah Rd, Singapore 678050', 'openingHours': {'Mon': 'Closed', 'Tue': '1130-1430, 1730-2200', 'Wed': '1130-1430, 1730-2200', 'Thu': '1130-1430, 1730-2200', 'Fri': '1130-1430, 1730-2200', 'Sat': '1130-1430, 1730-2200', 'Sun': '1130-1430, 1730-2200'}, 'contactNumber': '+65-8499-7156', 'description': '', 'citation': []}, 'extra_data': {'types': ['italian_restaurant', 'pizza_restaurant', 'catering_service', 'food_delivery', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'Please check the website for more information.', 'reviews': [], 'photos': [{'name': 'places/ChIJVzhOFlEQ2jER3n2PjmRDbbk/photos/AVzFdbkryPzYxn1uEYr9UOv5Z3NnyBf1FpZe4izEIpkw_pwFTEGKagij6NBLJpqD_Z1Pcw8bN90MoAzjEb86GAnodqMlt3b9mDX_B5xzijzchXQj3J86zm9z0ZXTv5XPeCX61R1yX7v2ww2LkVNRLiYOXtoW3BxOXof8Iasm', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipM0q8d2LdXoRJ2hIeqZqaMf-NKXpAZCoAkOYv0Q!2e10!4m2!3m1!1s0x31da1051164e3857:0xb96d43648e8f7dde'}], 'editorialSummary': '', 'websiteUri': 'https://acquaefarina.com.sg/'}}
+2025-01-28 05:58:40,153 - app.api.v1.locations - ERROR - Error processing place 16: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:40,155 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'The Long Weekend Pizza', 'address': "61 St Patrick's Rd, Singapore 424174", 'openingHours': {'Mon': 'Closed', 'Tue': 'Closed', 'Wed': 'Closed', 'Thu': 'Closed', 'Fri': '1700-2100', 'Sat': '1700-2100', 'Sun': '1700-2100'}, 'contactNumber': '+65-8913-0331', 'description': '', 'citation': []}, 'extra_data': {'types': ['meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'SGD $10-20', 'reviews': [], 'photos': [{'name': 'places/ChIJGxgclssj2jER9EUdkVR-DeU/photos/AVzFdbmot_VCH2Nwc25iZy_GkBlrEqrzy3xQgmlNEuoTgstblOebjKLb9fP8icEoFii7C3w1ESQO1xVK6MT6086i3S3yw66gWw7iw5xj06eYfxNvcIO52HtYJh0kw58Jw4kjCL2_zyrdNLdKowDZL-BsMYQi_Hi-WQlbbNZl', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNg-8YXItUVYIRRBjjwB6pHOAkixcUa3qbaOJqa!2e10!4m2!3m1!1s0x31da23cb961c181b:0xe50d7e54911d45f4'}], 'editorialSummary': '', 'websiteUri': 'https://www.facebook.com/profile.php?id=100090802457305&mibextid=ZbWKwL'}}
+2025-01-28 05:58:40,461 - app.api.v1.locations - ERROR - Error processing place 17: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:40,462 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'Wild Child Pizzette', 'address': '50 Circular Rd, Singapore 049405', 'openingHours': {'Mon': '1145-1430, 1800-2230', 'Tue': '1145-1430', 'Wed': 'Closed', 'Thu': 'Closed', 'Fri': '1145-1430, 1800-2230', 'Sat': '1145-1430, 1800-2230', 'Sun': '1145-1430, 1800-2230'}, 'contactNumber': '+65-6970-6592', 'description': '', 'citation': []}, 'extra_data': {'types': ['pizza_restaurant', 'meal_delivery', 'wine_bar', 'food_delivery', 'bar', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'Please check the website for more information.', 'reviews': [], 'photos': [{'name': 'places/ChIJ-a61hhQZ2jERbWKrar_qbj4/photos/AVzFdbkH8Lh9UOOmFrT5PMeaexXndidazdNb5IOeAWpOqhI5Fk5lvRjo8ccob4D33Dl-IIWwOOiB9OOSxzM9tQjPnUHi9myvVPGGGwil_JmESDyb5AfbHQ-6pm7Y6jElaRI4R_ebJk3rgYuesyI2e0IiYI5w-bx4hRI_VKaV', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMQK96bSxfLJNgbZQgdOSgO_q3JBtrVN5VG80_S!2e10!4m2!3m1!1s0x31da191486b5aef9:0x3e6eeabf6aab626d'}], 'editorialSummary': '', 'websiteUri': 'https://wildchildpizzette.com/'}}
+2025-01-28 05:58:40,704 - app.api.v1.locations - ERROR - Error processing place 18: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:40,706 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': "Fernando's Pizza @ Trio", 'address': '11 Sam Leong Rd, #01-09 Trio Mall, Singapore 207903', 'openingHours': {'Mon': 'Closed', 'Tue': '1100-1430, 1700-2200', 'Wed': '1100-1430, 1700-2200', 'Thu': '1100-1430, 1700-2200', 'Fri': '1100-1430, 1700-2200', 'Sat': '1100-2200', 'Sun': '1100-2200'}, 'contactNumber': '+65-8228-8480', 'description': '', 'citation': []}, 'extra_data': {'types': ['italian_restaurant', 'pizza_restaurant', 'meal_delivery', 'food_delivery', 'food_store', 'store', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'SGD $10-20', 'reviews': [], 'photos': [{'name': 'places/ChIJocenEPoZ2jERN_3KRHOPVdE/photos/AVzFdbnm3Khu0d9r8HpTwdB1B7ySpJuj_xX6ma-mkSRqjYt51DzSFfF4iHUO4lRC9NsWnpfe2jRRIhADG90M-synvU5ibfU2WBwqkhQHruHbcECXog47Z6mivjGDoesnxwMmIPtQWSR-ccctnMPNvL3G3GbUb33NSaoH98v3', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPr9OTTX8sCYfS3QHVKhVEjqusRZAjkABkotksT!2e10!4m2!3m1!1s0x31da19fa10a7c7a1:0xd1558f7344cafd37'}], 'editorialSummary': '', 'websiteUri': 'http://fernandospizza.sg/'}}
+2025-01-28 05:58:40,943 - app.api.v1.locations - ERROR - Error processing place 19: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:40,945 - app.api.v1.locations - DEBUG - Format place details: {'response_data': {'name': 'Puffy Bois pizza and slices', 'address': '20A Bali Ln, Singapore 189856', 'openingHours': {'Mon': '1800-0000', 'Tue': 'Closed', 'Wed': 'Closed', 'Thu': 'Closed', 'Fri': '1800-0000', 'Sat': '1800-0000', 'Sun': '1800-0000'}, 'contactNumber': '', 'description': '', 'citation': []}, 'extra_data': {'types': ['bar', 'restaurant', 'food', 'point_of_interest', 'establishment'], 'priceRange': 'Please check the website for more information.', 'reviews': [], 'photos': [{'name': 'places/ChIJ8VXygBoZ2jERa2BpTTvZ4jM/photos/AVzFdbkHysvmDcMELLD0cFP0zWT1DdTh4inYV7ASzEcalYyh4vEcSBZocBNtahbSol-cB00PWXxelXWO1Q-doFutPuSToh7bWUktScCavAtewZXm-7SQzt1ZOYQK0Sy79rwwYn1tzMbVLC9qiw_MpYzTmhrC4gYLI1WPOVU5', 'googleMapsUri': 'https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipN2SYFFsQkZae3M2pMqqs06pyMJ-gCMEpYtHBjC!2e10!4m2!3m1!1s0x31da191a80f255f1:0x33e2d93b4d69606b'}], 'editorialSummary': '', 'websiteUri': 'http://puffybois.com/'}}
+2025-01-28 05:58:41,278 - app.api.v1.locations - ERROR - Error processing place 20: 429 Resource has been exhausted (e.g. check quota).
+Traceback (most recent call last):
+  File "/Users/yongsenteo/Desktop/stb_new/app/api/v1/locations.py", line 66, in search_locations
+    top_offerings = generate_top_offerings(place_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/app/llm/generate_top_offerings.py", line 95, in generate_top_offerings
+    response = chat_session.send_message(location_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yongsenteo/Desktop/stb_new/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+2025-01-28 05:58:41,279 - app.api.v1.locations - INFO - Successfully processed 5 places
