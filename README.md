@@ -1,7 +1,7 @@
 # Project Name: STB Places Finder
 
 - for project documentation, **PLEASE REFER** to the README link below:
-  [PROJECT_README.md]
+  [Project Docs](./PROJECT_README.md)
 
 - this page will mainly cover the setting up of the project and API keys
 
